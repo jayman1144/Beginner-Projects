@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(141, 139, 139);
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: blueviolet;
+    text-align: center;   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    font-size: 1.5rem;
+    border: 5px ridge purple;
+    border-radius: 4px;
+}
+button{
+    font-size: 2rem;
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#output{
+    font-size: 2.5rem;
+    color: rgb(19, 149, 255);
+    font-weight: bold;
+}
