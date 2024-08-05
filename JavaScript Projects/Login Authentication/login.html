@@ -8,8 +8,14 @@
 </head>
 <body>
     <h1>Login Authentication</h1>
-    <form>
-        <label id="output" style="display: none;"></label>
+    <div id="decision">
+        <button type="button" id="log_in" onclick="log_in()">Log In</button>
+        <br>
+        <button type="button" id="sign_up" onclick="sign_up()">Sign Up</button>
+    </div>
+    
+    <form id="input_form">
+        <label id="output" ></label>
         <input type="text" placeholder="Input Username" id="username">
         <br>
         <input type="text" placeholder="Input Password" id="password">

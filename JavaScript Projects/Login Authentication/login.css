@@ -7,8 +7,37 @@ h1{
     color: blueviolet;
     text-align: center;   
 }
-form{
+button{
+    cursor: pointer;
+}
+
+#decision{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#decision button{
+    font-size: 3.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+#log_in{
+    background-color: hsl(219, 79%, 66%);
+}
+#log_in:hover{
+    background-color: hsl(219, 79%, 56%);
+}
+#sign_up{
+    background-color:hotpink;
+}
+#sign_up:hover{
+    background-color:hsl(330, 100%, 61%);
+}
+
+form{
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -18,7 +47,7 @@ input{
     border: 5px ridge purple;
     border-radius: 4px;
 }
-button{
+button[type="submit"]{
     font-size: 2rem;
     background-color: pink;
     color: white;
