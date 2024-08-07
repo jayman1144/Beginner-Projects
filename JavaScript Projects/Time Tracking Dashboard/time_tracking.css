@@ -1,0 +1,117 @@
+body{
+    background-color: hsl(226, 43%, 10%);
+    font-family: "Rubik";
+    font-weight: 300;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+
+#profile_container{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: hsl(246, 80%, 60%);
+    transform: translateY(-40%) translateX(30%);
+    width: 200px;
+    height: 350px; 
+    border-radius: 8px;
+}
+#profile_container *{
+    margin-left: 15px;
+}
+#profile_container img{
+    width: 75px;
+    height: 75px;
+    margin-top: 15px;
+    border: 3px solid;
+    border-radius: 42px;
+}
+#profile_container h2{
+    transform: translateY(-37px) ;
+    margin-bottom: none;
+}
+
+#dates_container{
+    display:inline-block;
+    flex-direction: column;
+    background-color: hsl(235, 46%, 20%);
+    justify-content: left;
+    align-items: left;
+    border-radius: 8px;
+    margin: 0;
+    transform: translateY(-30px); 
+}
+#dates_container button{
+    background-color: hsl(235, 46%, 20%);
+    font-family: "Rubik";
+    font-weight: 300;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.616);
+}
+#dates_container button:hover{
+    color: white;
+}
+
+
+.inner{
+    background-color: hsl(235, 46%, 20%);
+    border: none;
+    border-radius: 5px;
+    transform: translateY(-38px);
+}
+.inner *{
+    margin-left: 15px;
+    position: relative;
+    top: 10px;
+    
+}
+.outer{
+    border: none;
+    border-radius: 5px;
+    height: 100px;
+}
+.ellipsis{
+    transform: translate(128px,-43px);
+}
+
+
+#work_container{
+    transform: translate(320px,359px);  
+}
+#play_container{
+    transform: translate(530px,258px);
+}
+#study_container{
+    transform: translate(740px,157px);
+}
+#exercise_container{
+    transform: translate(320px,254px);
+}
+#social_container{
+    transform: translate(532px,154px);
+}
+#self_care_container{
+    transform: translate(210px,-225px);
+}
+
+
+#activities_container div{
+    width: 170px;
+}
+
+.outer h2, .outer p{
+    transform: translateY(-50px);
+}
+.inner p{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.616);
+
+}
+
+.icons{
+    height: 45px;
+    width: 45px;
+}
