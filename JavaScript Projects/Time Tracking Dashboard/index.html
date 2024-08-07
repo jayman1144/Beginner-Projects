@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="time_tracking.css">
+    <link rel="icon" href="time-tracking-dashboard-main\time-tracking-dashboard-main\images\favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    
+    <title>Time Tracking Dashboard</title>
+</head>
+<body>
+
+    <div id="activities_container" style="display:inline-block">
+        <div class = "outer" id="work_container" style="background-color: hsl(15, 100%, 70%);">
+            <img class = "icons" src="time-tracking-dashboard-main\time-tracking-dashboard-main\images\icon-work.svg">
+                <div class="inner">
+                    
+                    <h4>Work</h4>
+                    <input onclick="options('work')" class="ellipsis" type="image"src="time-tracking-dashboard-main\time-tracking-dashboard-main\images\icon-ellipsis.svg"> 
+                    <h2>14 hrs</h2>
+                    <p>Last week: 4hrs</p>
+                </div>
+        </div>
+
+        <div class = "outer" id="play_container" style="background-color: hsl(195, 74%, 62%)">
+            <img class = "icons" src="time-tracking-dashboard-main\time-tracking-dashboard-main\images\icon-play.svg">
+                <div class="inner">
+                    
+                    <h4>Play</h4>
+                    <input onclick="options('play')" class="ellipsis" type="image"src="time-tracking-dashboard-main\time-tracking-dashboard-main\images\icon-ellipsis.svg"> 
+                    <h2>14 hrs</h2>
+                    <p>Last week: 4hrs</p>
+                </div>
+        </div>
+
+        <div class = "outer" id="study_container" style="background-color: hsl(348, 100%, 68%);">
+            <img class = "icons" src="time-tracking-dashboard-main\time-tracking-dashboard-main\images\icon-study.svg">
+                <div class="inner">
+                    
+                    <h4>Study</h4>
+                    <input onclick="options('study')" class="ellipsis" type="image"src="time-tracking-dashboard-main\time-tracking-dashboard-main\images\icon-ellipsis.svg"> 
+                    <h2>14 hrs</h2>
+                    <p>Last week: 4hrs</p>
+                </div>
+        </div>
+
+        <div class = "outer" id="exercise_container" style="background-color: hsl(145, 58%, 55%);">
+            <img class = "icons" src="time-tracking-dashboard-main\time-tracking-dashboard-main\images\icon-exercise.svg">
+                <div class="inner">
+                    
+                    <h4>Exercise</h4>
+                    <input onclick="options('exercise')" class="ellipsis" type="image"src="time-tracking-dashboard-main\time-tracking-dashboard-main\images\icon-ellipsis.svg"> 
+                    <h2>14 hrs</h2>
+                    <p>Last week: 4hrs</p>
+                </div>
+        </div>
+
+        <div class = "outer" id="social_container" style="background-color: hsl(264, 64%, 52%);">
+            <img class = "icons" src="time-tracking-dashboard-main\time-tracking-dashboard-main\images\icon-social.svg">
+                <div class="inner">
+                    
+                    <h4>Social</h4>
+                    <input onclick="options('social')" class="ellipsis" type="image"src="time-tracking-dashboard-main\time-tracking-dashboard-main\images\icon-ellipsis.svg"> 
+                    <h2>14 hrs</h2>
+                    <p>Last week: 4hrs</p>
+                </div>
+
+                <div class = "outer" id="self_care_container" style="background-color: hsl(43, 84%, 65%);">
+                    <img class = "icons" src="time-tracking-dashboard-main\time-tracking-dashboard-main\images\icon-self-care.svg">
+                        <div class="inner">
+                            
+                            <h4>Self Care</h4>
+                            <input onclick="options('self care')" class="ellipsis" type="image"src="time-tracking-dashboard-main\time-tracking-dashboard-main\images\icon-ellipsis.svg"> 
+                            <h2>14 hrs</h2>
+                            <p>Last week: 4hrs</p>
+                        </div>
+                </div>
+
+    
+
+    </div>
+
+
+    <div id="profile_container">
+        <img src="time-tracking-dashboard-main\time-tracking-dashboard-main\images\image-jeremy.png">
+        <br>
+        <p style="font-size: 12px;">Report for</p>
+        <h2 style="font-size: 31px;">Jeremy Robson</h2>
+        <div id="dates_container">
+            <button onclick="daily_info()" class="dates_buttons">Daily</button>
+            <br>
+            <button onclick="weekly_info()" class="dates_buttons">Weekly</button>
+            <br>
+            <button onclick="monthly_info()" class="dates_buttons" style="margin-bottom: 24px;">Monthly</button>
+        </div>
+    </div>
+
+
+    <script src="time_tracking.js"></script>
+</body>
+</html>
